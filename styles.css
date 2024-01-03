@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #fff;
+}
+
+.rightSide{
+    display: flex;
+    align-items: center;
+}
+
+.rightSide div{
+    margin-right: 30px;
+}
+
+.rightSide a{
+    text-decoration: none;
+    color: #10296E;
+}
+.rightSide .give{
+    border: 2px solid #10296E;
+    padding: 20px;
+}
+
+.rightSide .register{
+    background-color: #10296E;
+    padding: 20px;
+}
+
+.rightSide .register a{
+    color: white
+}
+
+/* HERO */
+
+.hero{
+    background-image: url('images/herosection.svg');
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* .midImage{
+    width: 80%;
+}
+
+.midImage img{
+    width: 350px;
+} */
+
+.midImage {
+    margin-top: 110px;
+}
+
+.containerBody{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+/* ABOUT */
+.about {
+    padding-top: 104px;
+    margin-bottom: 90px;
+}
+
+.heading{
+    color: #10296E;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+
+.bodyAbout{
+    font-size: 26px;
+    text-align: justify;
+}
+
+.featuringRow {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 60px;
+}
+
+.colorOrange{
+    margin-right: 60px;
+    background: #FF3E00EE;
+    padding: 20px;
+    color: white;
+}
+
+.colorOrange p{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ft-register{
+    background-color: #10296E;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.reg-container{
+    display: flex;
+    justify-content: end;
+}
